@@ -18,122 +18,123 @@
         </header>
         <section class="container content-section">
             <h2 class="section-header">MUSIC</h2>
-            <div class="shop-item">
+            <div class="shop-items">
+                <div class="shop-item">
                     <span class="shop-item-title">Album1</span>
-                    <img class="shop-item-image" width="200" src="images/red-hot-calif.jpg" alt="cali">
+                    <img class="shop-item-image" src="images/red-hot-calif.jpg" alt="cali">
                     <div class="shop-item-details">
                         <span class="shop-item-price">$12.99</span>
                         <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Album2</strong>
-                </div>
-                    <img width="200" src="images/red-hot-blood.jpg" alt="blood">
-                    <div>
-                        <span>$12.99</span>
-                        <button type="button">ADD TO CART</button>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album2</span>
+                    <img class="shop-item-image" src="images/red-hot-blood.jpg" alt="blood">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Album3</strong>
-                </div>
-                    <img width="200" src="images/red-hot-geta.jpg" alt="getaway">
-                    <div>
-                        <span>$12.99</span>
-                        <button type="button">ADD TO CART</button>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album3</span>
+                    <img class="shop-item-image" src="images/red-hot-geta.jpg" alt="getaway">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Album4</strong>
+                <div class="shop-item">
+                    <span class="shop-item-title">Album4</span>
+                    <img class="shop-item-image" src="images/red-hot-stadium.jpg" alt="stadium">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-                    <img width="200" src="images/red-hot-stadium.jpg" alt="stadium">
-                    <div>
-                        <span>$12.99</span>
-                        <button type="button">ADD TO CART</button>
+            </div> 
+            
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-SHIRT</span>
+                    <img class="shop-item-image" src="images/red-hot-tshirt.jpg" alt="tshirt">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$22.99</span>
+                        <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Coffe-Cup</span>
+                    <img class="shop-item-image" src="images/red-hot-mug.jpg" alt="tshirt">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-btn" type="button">ADD TO CART</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>MERCH</h2>
-            <div>
-                <div>
-                    <strong>T-SHIRT</strong>
-                </div>
-                    <img width="200" src="images/red-hot-tshirt.jpg" alt="tshirt">
-                    <div>
-                        <span>$22.99</span>
-                        <button type="button">ADD TO CART</button>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/red-hot-calif.jpg" alt="">
+                        <span class="cart-item-title">Album1</span>
+                    </div>
+                    <span class="cart-price cart-column">$12.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
                     </div>
                 </div>
-                <div>
-                    <strong>Coffe-Cup</strong>
-                </div>
-                    <img width="200" src="images/red-hot-mug.jpg" alt="tshirt">
-                    <div>
-                        <span>$9.99</span>
-                        <button type="button">ADD TO CART</button>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="images/red-hot-tshirt.jpg" alt="">
+                        <span class="cart-item-title">T-Shirt</span>
+                    </div>
+                    <span class="cart-price cart-column">$22.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
                     </div>
                 </div>
             </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$35.98</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
-
-        <section>
-            <h2>CART</h2>
-            <div>
-                <strong>ITEM</strong>
-                &lt;&gt;
-                <strong>PRICE</strong>
-                &lt;&gt;
-                <strong>QUANTITY</strong>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">Red Hot Chilli Peppers</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="images/youtube-white.png" alt="youtube"/
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank">
+                            <img src="images/twitter-white.png" alt="twitter"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="images/facebook-white.png" alt="facebook"/>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div>
-                <img src="images/red-hot-calif.jpg" alt="" width="100">
-                <span>Album1</span>
-                &lt;&gt;
-                <span>$12.99</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button type="button">REMOVE</button>
-            </div>
-            <div>
-                <img src="images/red-hot-tshirt.jpg" alt="" width="100">
-                <span>T-Shirt</span>
-                &lt;&gt;
-                <span>$22.99</span>
-                &lt;&gt;
-                <input type="number" value="1">
-                <button type="button">REMOVE</button>
-            </div>
-            <hr/>
-            <div>
-                <strong>Total</strong>
-                <span>$35.98</span>
-            </div>
-            <div>
-                <button type="button">PURCHASE</button>
-            </div>
-        </section>
-        <footer>
-            <h3>Red Hot Chilli Peppers</h3>
-            <ul>
-                <li><a href="https://youtube.com" target="_blank">
-                    <img width="40" src="images/youtube-white.png" alt="youtube"/
-                    ></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank">
-                        <img width="40" src="images/twitter-white.png" alt="twitter"/>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://facebook.com" target="_blank">
-                        <img width="40" src="images/facebook-white.png" alt="facebook"/>
-                    </a>
-                </li>
-            </ul>
         </footer>
     </body>
 </html>
